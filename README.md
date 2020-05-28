@@ -1,2 +1,2 @@
 # eeg-pipeline
-An EEG Pipeline to stream data from headsets to Google Collab.
+An EEG Pipeline webapp to stream data from headsets, visualize, analyze and build models. 

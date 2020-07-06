@@ -21,7 +21,7 @@ export default function Home() {
         <div className="grid">
           <Link href="/visualizations"><a className="card">
             <h3>Visualize EEG &rarr;</h3>
-            <p> Visualize filtered EEG signals </p>
+            <p> Visualize filtered and processed EEG signals.</p>
             </a></Link>
           
 

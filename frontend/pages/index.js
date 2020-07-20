@@ -17,36 +17,55 @@ export default function Home() {
         <p className="description">
           Work in progress. Support for Muse coming soon! 
         </p>
+        <p>
+          Largely built on the Next.js tutorial, design refresh to come soon! 
+        </p>
+
+        
 
         <div className="grid">
+
+        <Link href = "/learn">
+        <a className="card">
+            <h3>Learn &rarr;</h3>
+            <p>Learn about Neurotech in a visual and interactive way!</p>
+        </a></Link>
+
           <Link href="/visualizations"><a className="card">
             <h3>Visualize EEG &rarr;</h3>
-            <p> Visualize filtered and processed EEG signals.</p>
+            <p> Visualize and record filtered and processed EEG signals.</p>
             </a></Link>
-          
 
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+          <Link href = "/modeling">
+          <a className="card">
+            <h3>Modeling &rarr;</h3>
+            <p>Develop models to predict mental state. </p>
+          </a></Link>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
+          <Link href = "/games">
+          <a className="card">
+            <h3>Neural Feedback &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Play and develop incredible neural feedback games. 
+            </p>
+          </a></Link>
+
+          <Link href = "/database">
+          <a className="card">
+            <h3>Access Data &rarr;</h3>
+            <p>
+              Get access to cleaned and curated datasets. 
+            </p>
+          </a></Link>
+
+          
+          <a className="card" href = "https://neurotech.berkeley.edu/">
+            <h3>NT@B &rarr;</h3>
+            <p>
+              Learn more about Neurotech@Berkeley. 
             </p>
           </a>
+          
         </div>
       </main>
 

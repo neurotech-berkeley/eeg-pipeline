@@ -15,7 +15,7 @@ export default function Home() {
         </h1>
 
         <p className="description">
-          Learning <Link href="/learning/learnhome"><a>here</a></Link>
+          Work in progress. Support for Muse coming soon! 
         </p>
 
         <div className="grid">

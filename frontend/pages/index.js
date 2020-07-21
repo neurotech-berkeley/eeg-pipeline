@@ -1,13 +1,17 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import { useFetchUser } from '../lib/user'
+import Header from '../components/header'
 
 export default function Home() {
+  const { user, loading } = useFetchUser()
   return (
     <div className="container">
       <Head>
         <title>EEG Pipeline</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Header user={user} loading={loading} />
 
       <main>
         <h1 className="title">

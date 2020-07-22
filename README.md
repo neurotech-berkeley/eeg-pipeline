@@ -1,4 +1,4 @@
-#NT@B's EEG Pipeline
+# NT@B's EEG Pipeline
 
 Your one stop shop to learning about, visualizing and building models with EEG data. 
 

@@ -3347,7 +3347,7 @@ eval("var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtim
 
 /***/ }),
 
-/***/ 3:
+/***/ 2:
 /*!************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fneurofeedback%2Fconnect&absolutePagePath=%2FUsers%2Fapottaba%2FDesktop%2Feeg-pipeline%2Ffrontend%2Fpages%2Fneurofeedback%2Fconnect.js ***!
   \************************************************************************************************************************************************************************************/
@@ -3370,4 +3370,4 @@ eval("module.exports = dll_5030f387d328e4415785;//# sourceURL=[module]\n//# sour
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);

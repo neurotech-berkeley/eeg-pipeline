@@ -1,29 +1,75 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import { useFetchUser } from '../lib/user'
+import Header from '../components/header'
 
 export default function Home() {
+  const { user, loading } = useFetchUser()
   return (
     <div className="container">
       <Head>
         <title>EEG Pipeline</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Header user={user} loading={loading} />
 
       <main>
         <h1 className="title">
           One stop shop EEG Pipeline!
         </h1>
 
+        <p className="description">
+          Work in progress. Support for Muse coming soon! 
+        </p>
+        <p>
+          Largely built on the Next.js tutorial, design refresh to come soon! 
+        </p>
+
+        
+
         <div className="grid">
-          <Link href="/development/dashboard"><a className="card">
-            <h3> Development &rarr;</h3>
-            <p> Develop your own ML models! </p>
-          </a></Link>
+
+        <Link href = "/learn">
+        <a className="card">
+            <h3>Learn &rarr;</h3>
+            <p>Learn about Neurotech in a visual and interactive way!</p>
+        </a></Link>
 
           <Link href="/neurofeedback/connect"><a className="card">
-            <h3> Neurofeedback &rarr;</h3>
-            <p> Play some games! </p>
+            <h3>Visualize EEG &rarr;</h3>
+            <p> Visualize and record filtered and processed EEG signals.</p>
+            </a></Link>
+
+          <Link href = "/modeling">
+          <a className="card">
+            <h3>Modeling &rarr;</h3>
+            <p>Develop models to predict mental state. </p>
           </a></Link>
+
+          <Link href = "/games">
+          <a className="card">
+            <h3>Neural Feedback &rarr;</h3>
+            <p>
+              Play and develop incredible neural feedback games. 
+            </p>
+          </a></Link>
+
+          <Link href = "/database">
+          <a className="card">
+            <h3>Access Data &rarr;</h3>
+            <p>
+              Get access to cleaned and curated datasets. 
+            </p>
+          </a></Link>
+
+          
+          <a className="card" href = "https://neurotech.berkeley.edu/">
+            <h3>NT@B &rarr;</h3>
+            <p>
+              Learn more about Neurotech@Berkeley. 
+            </p>
+          </a>
+          
         </div>
       </main>
 

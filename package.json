@@ -8,11 +8,11 @@
     "start": "next start"
   },
   "dependencies": {
-    "muse-js": "^3.1.0",
-    "net": "^1.0.2",
     "@auth0/nextjs-auth0": "^0.15.0",
     "dotenv": "^8.2.0",
     "gray-matter": "^4.0.2",
+    "muse-js": "^3.1.0",
+    "net": "^1.0.2",
     "next": "9.4.4",
     "node-neurosky": "0.0.1",
     "node-thinkgear": "0.0.1",

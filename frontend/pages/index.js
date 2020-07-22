@@ -14,52 +14,18 @@ export default function Home() {
           One stop shop EEG Pipeline!
         </h1>
 
-        <p className="description">
-          Learning <Link href="/learning/learnhome"><a>here</a></Link>
-        </p>
-
         <div className="grid">
-          <Link href="/visualizations"><a className="card">
-            <h3>Visualize EEG &rarr;</h3>
-            <p> Visualize filtered and processed EEG signals.</p>
-            </a></Link>
-          
+          <Link href="/development/dashboard"><a className="card">
+            <h3> Development &rarr;</h3>
+            <p> Develop your own ML models! </p>
+          </a></Link>
 
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+          <Link href="/neurofeedback/connect"><a className="card">
+            <h3> Neurofeedback &rarr;</h3>
+            <p> Play some games! </p>
+          </a></Link>
         </div>
       </main>
-
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
-        </a>
-      </footer>
 
       <style jsx>{`
         .container {

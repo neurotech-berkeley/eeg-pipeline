@@ -1,3 +1,9 @@
+# NT@B's EEG Pipeline
+
+Your one stop shop to learning about, visualizing and building models with EEG data. 
+
+Built by Saarang Panchavati, Abhinav Pottabathula, Connor Kennedy, and Woojin Ko
+
 ## Getting Started
 
 Run the web server:
@@ -7,6 +13,7 @@ node server/src/index.js
 
 Run the web client:
 ```bash
+cd client
 npm run dev
 # or
 yarn dev
@@ -19,6 +26,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
 ## Learn More
+This was built using Next.js.
 
 To learn more about Next.js, take a look at the following resources:
 

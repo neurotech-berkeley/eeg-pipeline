@@ -5,7 +5,12 @@ Your one stop shop to learning about, visualizing and building models with EEG d
 Built by Saarang Panchavati, Abhinav Pottabathula, Connor Kennedy, and Woojin Ko
 
 ## Getting Started
-Run the web client:
+First, install the dependencies to your local node_modules folder by running:
+```bash
+npm install
+```
+
+Then, run the web client:
 ```bash
 npm run dev
 # or

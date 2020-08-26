@@ -5,15 +5,8 @@ Your one stop shop to learning about, visualizing and building models with EEG d
 Built by Saarang Panchavati, Abhinav Pottabathula, Connor Kennedy, and Woojin Ko
 
 ## Getting Started
-
-Run the web server:
-```bash
-node server/src/index.js 
-```
-
 Run the web client:
 ```bash
-cd client
 npm run dev
 # or
 yarn dev

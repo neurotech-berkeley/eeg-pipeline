@@ -10,6 +10,7 @@ const museClient = new MuseClient();
 
 function Visualizations() {
   const [testEEGData, setTestEEGData] = useState("");
+  const [blink_state, setBlinkState] = useState("");
 
   async function startMuseConnection(e) {
     await museClient.connect()
@@ -26,6 +27,8 @@ function Visualizations() {
     });
   }
 
+
+
   useEffect(() => {
     socket.on('connect', (msg) => {
       console.log("Connected!")
@@ -35,6 +38,7 @@ function Visualizations() {
     });
     socket.on('blink-state', (msg) => {
       console.log("Blink State: " + msg)
+      setBlinkState(msg)
     });
   }, []);
 
@@ -65,6 +69,7 @@ function Visualizations() {
         </label>
         <input type="submit" value="Send"/>
       </form>
+      <p>Blink State: {blink_state}</p>
     </Layout>
   );
 }

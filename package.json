@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@auth0/nextjs-auth0": "^0.16.0",
+    "@auth0/nextjs-auth0": "^1.4.2",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "gray-matter": "^4.0.2",

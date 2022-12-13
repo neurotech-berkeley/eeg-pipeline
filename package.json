@@ -10,7 +10,7 @@
   "dependencies": {
     "@auth0/nextjs-auth0": "^0.16.0",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "gray-matter": "^4.0.2",
     "muse-js": "^3.1.0",
     "net": "^1.0.2",
